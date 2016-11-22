@@ -1,0 +1,19 @@
+!INCLUDE $(INETROOT)\build\paths.all
+!INCLUDE $(INETROOT)\build\sources.all
+
+TARGETNAME = MMHLSTrans
+TARGETTYPE = PROGRAM
+
+UMTYPE = console
+UMENTRY = main
+
+
+
+SOURCES = format_trans.cpp \
+
+
+
+
+!INCLUDE $(INDEXGENMULTIMEDIAROOT)\BlueWhale\MMHLSDownloader\exports
+
+

@@ -1,0 +1,8 @@
+DEST_ROOT= \
+		  target\distrib\$(BUILDTYPE)\amd64\app\MMHLSDownloader: \
+		  target\distrib\$(BUILDTYPE)\$(BUILDTARGET)\app\DCMMVideoFetcher: \
+          target\distrib\$(BUILDTYPE)\$(BUILDTARGET)\app\AutoOnebox\onebox\DCApp\DCMMVideoFetcher: \
+          target\distrib\$(BUILDTYPE)\$(BUILDTARGET)\app\VideoFetcher: \
+
+
+MMHLSDownloader.exe $(DEST_ROOT)

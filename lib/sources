@@ -1,0 +1,21 @@
+!INCLUDE $(INETROOT)\build\paths.all
+!INCLUDE $(INETROOT)\build\sources.all
+
+TARGETNAME = MMHLSDownloader
+TARGETTYPE = LIBRARY
+
+
+SOURCES = aes.cpp \
+          curls.cpp \
+          hls.cpp \
+          misc.cpp \
+          msg.cpp \
+          HLSDownloader.cpp \
+          MultipleThreadQueue.cpp \
+          AVTransformFormat.cpp \
+
+QINSTRUMENTFORCOVERAGE=false
+
+!INCLUDE $(INDEXGENMULTIMEDIAROOT)\BlueWhale\MMHLSDownloader\exports
+
+

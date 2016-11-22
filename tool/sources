@@ -1,0 +1,20 @@
+!INCLUDE $(INETROOT)\build\paths.all
+!INCLUDE $(INETROOT)\build\sources.all
+
+TARGETNAME = MMHLSDownloader
+TARGETTYPE = PROGRAM
+
+UMTYPE = console
+UMENTRY = main
+
+
+
+SOURCES = main.cpp \
+          test.cpp\
+
+QINSTRUMENTFORCOVERAGE=false
+
+
+!INCLUDE $(INDEXGENMULTIMEDIAROOT)\BlueWhale\MMHLSDownloader\exports
+
+

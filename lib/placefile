@@ -1,0 +1,17 @@
+DEST_ROOT= \
+		target\distrib\$(BUILDTYPE)\amd64\app\MMHLSDownloader: \
+		target\distrib\$(BUILDTYPE)\$(BUILDTARGET)\app\DCMMVideoFetcher: \
+		target\distrib\$(BUILDTYPE)\$(BUILDTARGET)\app\AutoOnebox\onebox\DCApp\DCMMVideoFetcher: \
+		target\distrib\$(BUILDTYPE)\$(BUILDTARGET)\app\VideoFetcher: \
+
+avcodec-57.dll $(DEST_ROOT)
+avdevice-57.dll $(DEST_ROOT)
+avfilter-6.dll $(DEST_ROOT)
+avformat-57.dll $(DEST_ROOT)
+avutil-55.dll $(DEST_ROOT)
+postproc-54.dll $(DEST_ROOT)
+swscale-4.dll $(DEST_ROOT)
+swresample-2.dll $(DEST_ROOT)    
+libcurl.dll $(DEST_ROOT)
+ 
+
