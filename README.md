@@ -21,15 +21,15 @@ Compare to Origin Version(selsta):
 Command:
 Usage: MMHLSDownloader.exe url [options]
 
->--best    or -b ... Automaticly choose the best quality.
---verbose or -v ... Verbose more information.
---output  or -o ... Choose name of output file.
---live    or -l ... Url is Live Streaming Url.
---max    or -m  ... Maximum Video File Size to Download.
---help    or -h ... Print help.
---force   or -f ... Force overwriting the output file.
---userAgent   or -u ...Set the user agent.
---quiet   or -q ... Print less to the console.
---dump-dec-cmd  ... Print the openssl decryption command.
---dump-ts-urls  ... Print the links to the .ts files.
+	--best    or -b ... Automaticly choose the best quality.
+	--verbose or -v ... Verbose more information.
+	--output  or -o ... Choose name of output file.
+	--live    or -l ... Url is Live Streaming Url.
+	--max    or -m  ... Maximum Video File Size to Download.
+	--help    or -h ... Print help.
+	--force   or -f ... Force overwriting the output file.
+	--userAgent   or -u ...Set the user agent.
+	--quiet   or -q ... Print less to the console.
+	--dump-dec-cmd  ... Print the openssl decryption command.
+	--dump-ts-urls  ... Print the links to the .ts files.
 
